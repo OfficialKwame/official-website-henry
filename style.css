@@ -947,6 +947,10 @@ footer .copyright
         margin: 15px ;
     }
     
+    #product1 .pro{
+        width: 100%;
+    }
+
 
     #banner {
        
@@ -972,6 +976,10 @@ footer .copyright
     #prodetails .single-pro-img {
         width: 40%;
         margin-right: 50px;
+    }
+
+    #product1 .pro  img{
+        width: 50%;
     }
 
 
@@ -1013,6 +1021,14 @@ footer .copyright
     #product1 .pro{
         width: 100%;
     }
+
+
+
+    #product1 .pro  img{
+        width: 50%;
+    }
+
+
 
     #banner{
         height: 40vh;
