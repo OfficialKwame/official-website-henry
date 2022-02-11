@@ -374,6 +374,7 @@ body{
 #product1 .pro{
     width: 23%;
     min-width: 200px;
+    
     padding: 5px 12px;
     border: 1px solid #cce7d0;
     border-radius: 25px;
@@ -383,7 +384,7 @@ body{
     transition: 0,2s ease;
     position: relative;
     height: 20rem;
-    background-color: rgb(216, 224, 241);
+    background-color: rgb(253, 253, 253);
    
 
 }
@@ -401,6 +402,7 @@ body{
   min-width: 70%;
   max-height: 70%;
   padding-top: 10px;
+  max-width: 50px;
 }
 
 
