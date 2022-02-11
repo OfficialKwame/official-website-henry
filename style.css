@@ -229,7 +229,7 @@ body{
 
 
 #hero{
-    background-image: url("img/hero4.png");
+    background-image: url("img/products/main.jpg");
     height: 90vh;
     width: 100%;
     background-size:cover;
@@ -271,12 +271,14 @@ body{
 
 #feature .fe-box{
     width: 180px;
+    height: 12rem;
     text-align: center;
-    padding:25px 15px;
+  
     box-shadow: 20px 20px 34px rgba( 0 ,0, 0, 0.03);
     border: 1px solid #cce7d0;
     border-radius: 100px;
     margin: 15px 0;
+   
 }
 
 #feature {
@@ -296,6 +298,13 @@ body{
 #feature .fe-box img{
     width: 100%;
     margin-bottom: 10px;
+    border-radius: 100px;
+    height: 100%;
+     align-items: center;
+    position: relative;
+    object-fit: fill;
+    
+  
 }
 
 #feature .fe-box h6{
@@ -364,8 +373,8 @@ body{
 
 #product1 .pro{
     width: 23%;
-    min-width: 250px;
-    padding: 10px 12px;
+    min-width: 200px;
+    padding: 5px 12px;
     border: 1px solid #cce7d0;
     border-radius: 25px;
     cursor: pointer;
@@ -373,6 +382,9 @@ body{
     margin:15px 0;
     transition: 0,2s ease;
     position: relative;
+    height: 20rem;
+    background-color: rgb(216, 224, 241);
+   
 
 }
 
@@ -383,8 +395,12 @@ body{
 }
 
 #product1 .pro img{
-    width: 100%;
+    width: 15rem;
     border-radius: 20px;
+  min-height: 70%;
+  min-width: 70%;
+  max-height: 70%;
+  padding-top: 10px;
 }
 
 
