@@ -11,7 +11,6 @@
 
 
 
-
 h1{
     font-size: 50px;
     line-height: 64px;
@@ -376,7 +375,7 @@ body{
 
 #product1 .pro{
     width: 23%;
-    min-width: 200px;
+    min-width: 100px;
     
     padding: 5px 12px;
     border: 1px solid #cce7d0;
@@ -945,7 +944,9 @@ footer .copyright
 
     #product1 .pro-container {
         
-        justify-content: center;
+        justify-content:space-between;
+        display: flex;
+        flex-direction: row;
     }
 
     #product1 .pro {
@@ -954,7 +955,7 @@ footer .copyright
     }
     
     #product1 .pro{
-        width: 100%;
+        width: 40%;
     }
 
 
