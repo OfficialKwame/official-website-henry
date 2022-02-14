@@ -400,7 +400,7 @@ body{
 #product1 .pro img{
     width: 15rem;
     border-radius: 20px;
-  min-height: 70%;
+  min-height: 60%;
   min-width: 70%;
   max-height: 70%;
   padding-top: 10px;
@@ -955,7 +955,7 @@ footer .copyright
     }
     
     #product1 .pro{
-        width: 40%;
+        width: 30%;
     }
 
 
@@ -987,6 +987,7 @@ footer .copyright
 
     #product1 .pro  img{
         width: 50%;
+        
     }
 
 
