@@ -947,6 +947,7 @@ footer .copyright
         justify-content:space-evenly;
         display: flex;
         flex-direction: row;
+        padding: 10px 10px;
     }
 
     #product1 .pro {
